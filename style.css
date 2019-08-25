@@ -1,0 +1,36 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #8e44ad;
+}
+
+.main-nav {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    padding: 20px;
+}
+
+.main-nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 1.3em;
+}
+
+.main-nav li a:hover {
+    background-color: #522764;
+}
+
+@media only screen and (max-width: 720px) {
+    .main-nav {
+        padding-left: 0;
+    }
+    
+    .main-nav li a {
+        font-size: 1em;
+    }
+}
