@@ -11,7 +11,6 @@ body {
 
 .navbar {
     background-color: #8e44ad;
-    
 }
 
 .main-nav {
@@ -19,7 +18,7 @@ body {
     margin: 0;
     display: flex;
     padding: 20px;
-    
+    width: 100%;
 }
 
 .pushed {
@@ -56,7 +55,7 @@ body {
     align-items: center;
     height: 70vh;
 
-    margin: 80px;
+    margin: 50px;
 }
 
 .logo {
