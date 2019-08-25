@@ -39,10 +39,12 @@ body {
 @media only screen and (max-width: 720px) {
     .main-nav {
         padding-left: 0;
+        margin: 0;
     }
     
     .main-nav li a {
-        font-size: 1em;
+        font-size: 0.8rem;
+        margin: 0;
         padding: 10px;
     }
 }
@@ -54,10 +56,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 70vh;
-
-    margin: 50px;
+    margin-top: 20px;
+    overflow: hidden;
 }
 
 .logo {
-    width: 30em;
+    width: 30rem;
+    
 }
