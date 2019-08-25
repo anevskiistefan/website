@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -7,6 +11,7 @@ body {
 
 .navbar {
     background-color: #8e44ad;
+    
 }
 
 .main-nav {
@@ -14,6 +19,7 @@ body {
     margin: 0;
     display: flex;
     padding: 20px;
+    
 }
 
 .pushed {
@@ -47,9 +53,12 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    padding: 60px;
+    align-items: center;
+    height: 70vh;
+
+    margin: 80px;
 }
 
 .logo {
-    height: 70vh;
+    width: 30em;
 }
