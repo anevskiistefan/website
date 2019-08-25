@@ -36,6 +36,26 @@ body {
     background-color: #522764;
 }
 
+/* COVERPAGE */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 70vh;
+    margin-top: 20px;
+    overflow: auto;
+}
+
+.logo {
+    width: 30rem;
+    
+}
+
+
+/* MEDIA QUERIES */
+
 @media only screen and (max-width: 720px) {
     .main-nav {
         padding-left: 0;
@@ -47,20 +67,8 @@ body {
         margin: 0;
         padding: 10px;
     }
-}
 
-/* COVERPAGE */
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
-    margin-top: 20px;
-    overflow: hidden;
-}
-
-.logo {
-    width: 30rem;
-    
+    .logo {
+        width: 20rem;
+    }
 }
