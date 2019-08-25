@@ -3,6 +3,8 @@ body {
     margin: 0;
 }
 
+/* NAVBAR */
+
 .navbar {
     background-color: #8e44ad;
 }
@@ -38,4 +40,16 @@ body {
         font-size: 1em;
         padding: 10px;
     }
+}
+
+/* COVERPAGE */
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.logo {
+    height: 70vh;
 }
