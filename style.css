@@ -44,16 +44,29 @@ body {
     display: block;
 }
 
-.website-intro h2 {
+.website-intro h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+    width: 300px;
+    text-align: center;
+    margin: 100px auto 0 auto;
+}
+
+h2 {
     text-transform: uppercase;
     font-size: 2.5rem;
     font-weight: normal;
     letter-spacing: 1px;
-    box-shadow: 2px 2px 8px rgb(63, 60, 60);
-    width: 250px;
+    box-shadow: 2px 2px 8px #ac6fc6;
+    width: 350px;
     text-align: center;
-    margin: 100px auto 0 auto;
+    margin: auto;
+    color: #ac6fc6;
 }
+
+
 
 .cover {
     overflow-x: hidden;
@@ -82,7 +95,6 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 20px;
     padding: 120px;
-    background-color: #eeece7;
 }
 
 .box {
@@ -90,24 +102,66 @@ body {
     padding: 30px;
     line-height: 150%;
     font-size: 1.2rem;
-    text-align: justify;
+    text-align: left;
     word-break: break-all; 
     font-weight: normal;
     color: #ac6fc6;
+    -moz-box-shadow: 4px 4px 8px #ac6fc6;
+    -webkit-box-shadow: 4px 4px 5px #ac6fc6;
+    box-shadow: 4px 4px 5px #ac6fc6;
 }
+
 
 .project-icon {
     font-size: 2.5rem;
-    display: flex;
-    justify-content: center;
 }
+
+.projects {
+    background-color: #eeece7;
+    padding-top: 100px;
+}
+
+footer {
+    background-color: #522764;
+    color: #fff;
+    padding: 15px 0 15px 0;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.copyright {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-icons {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.social:hover {
+    color: #dad9d9;
+}
+
+.icon {
+    padding-left: 20px;
+}
+
+
+
 
 
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 720px) {
     .main-nav {
-        padding-left: 0;
+        padding: 20px;
         margin: 0;
     }
     
@@ -123,7 +177,6 @@ body {
 
     .grid-wrapper {
         justify-content: center;
-        padding-top: 20px;
     }
 
     .box {
